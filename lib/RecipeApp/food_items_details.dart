@@ -252,7 +252,7 @@ class _FoodItemDetailsScreenState extends State<FoodItemDetailsScreen> {
                                         borderRadius: BorderRadius.circular(10),
                                       ),
                                       child:
-                                          Center(child: Text(name.toString())),
+                                          Text(name.toString())
                                     ),
                                   )
                                   .toList(),
