@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:recipe_app.example.com/RecipeApp/calender_screen.dart';
 import 'package:recipe_app.example.com/RecipeApp/favorite_screen.dart';
-// import 'package:recipe_app.example.com/RecipeApp/provider/onpagechanged.dart';
 import 'package:recipe_app.example.com/RecipeApp/recipe_home_screen.dart';
 import 'package:recipe_app.example.com/RecipeApp/settings_screen.dart';
 

@@ -1,13 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:recipe_app.example.com/RecipeApp/food_items_details.dart';
-import 'package:recipe_app.example.com/RecipeApp/food_items_display.dart';
 import 'package:recipe_app.example.com/RecipeApp/provider/favorite_provider.dart';
 
 class FavoriteScreen extends StatefulWidget {
-  // final DocumentSnapshot<Object?> documenTSnapshot;
   const FavoriteScreen({super.key});
 
   @override
@@ -64,15 +60,9 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
                               child: Row(
                                 children: [
                                   GestureDetector(
-                                    // onTap: () {
-                                    //   Navigator.of(context).push(
-                                    //     MaterialPageRoute(
-                                    //       builder: (context) {
-                                    //         return FoodItemsDisplay(documentSnapshot: );
-                                    //       },
-                                    //     ),
-                                    //   );
-                                    // },
+                                    onTap: () {
+                                    
+                                    },
                                     child: Container(
                                       decoration: BoxDecoration(
                                         color: Colors.white,
@@ -121,7 +111,8 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
                                         children: [
                                           const Icon(
                                             Iconsax.star1,
-                                            size: 14,color: Colors.orange,
+                                            size: 14,
+                                            color: Colors.orange,
                                           ),
                                           Text(
                                               " ${favoriteItem["rate"]}/5  •  "),
