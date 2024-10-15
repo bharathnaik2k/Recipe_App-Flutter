@@ -1,0 +1,20 @@
+{
+    "cSpell.enableFiletypes": [
+        "dart",
+        "git-rebase",
+        "gradle",
+        "gradle-build",
+        "ignore",
+        "objective-c",
+        "snippets",
+        "xml"
+    ],
+    "cSpell.words": [
+        "profilescreen",
+        "splashscreen"
+    ],
+    "dart.flutterCustomEmulators": [],
+    "editor.inlineSuggest.showToolbar": "onHover",
+    "editor.inlineSuggest.suppressSuggestions": false,
+    "editor.suggest.preview": false
+}
